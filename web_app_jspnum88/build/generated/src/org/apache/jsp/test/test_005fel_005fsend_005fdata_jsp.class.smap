@@ -1,0 +1,18 @@
+SMAP
+test_005fel_005fsend_005fdata_jsp.java
+JSP
+*S JSP
+*F
++ 0 test_el_send_data.jsp
+test/test_el_send_data.jsp
+*L
+5,11:44
+16:55,3
+17,2:58
+19:60,2
+20:62,3
+21,2:65
+23:67,2
+24,2:69,3
+26,4:75
+*E

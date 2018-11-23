@@ -1,0 +1,128 @@
+
+Frist ===>>>> programing  
+
+
+programe : web_app_jspnum88
+
+
+==========================================================
+
+
+Second : information
+
+
+in page.jsp
+
+
+=> java code is write throw rules is the rules of jsp :
+
+
+1: Declarative
+
+2: scriptlet
+
+3: directive
+
+4: experation
+
+5: Standered Action (like html)
+
+6: expretion language (update to 5)
+
+===============================
+
+
+6: expretion language  { isnot java but its like javacode}
+
+
+1: access data in java bean :
+
+$ {name_of_object_of_use_bean   .  attributname_in_javaclass}
+
+ex:
+<%--Action lan rather xx --%>
+        ${object_attribute.name } 
+        ${object_attribute["name"]}
+        ${object_attribute.salary}
+        
+
+
+2: in arrayList
+
+ ${xx["index"]} => (general)
+
+ex:
+ <%-- arraylist --%>
+        ${ db[0] }
+        ${ db["1"] }  //general
+
+
+=> not tell him(expretion language) object palce 
+
+  it search in :
+
+  1: page scop 
+   {page only see this obj}(if notfound ,go 2)
+   ex:scope="page"
+
+ 
+  2: requst
+  3: session
+  4: app
+
+but i can tell him the place of object
+
+ex:
+
+ <%-- --%>
+        ${applicationScope.object_attribute.name}
+        ${requestScope.object_attribute.name}
+        ${sessionScope.object_attribute.name}
+        ${pageScope.object_attribute.name}
+
+
+
+
+===================================
+
+implcet object (ready object in expression lan) :
+ 
+=>just ican see them in ${ heeeeeeeeeer }
+
+ex: ${param.nam} rather than request.getparamiter("nam"); (type of param is   'map')
+ex:${header["user-agent"]}    ===> type of prowser
+ex:${header["Accept"]} 
+es${initParam.email}
+ 
+==========================================
+
+
+6: expretion language :
+
+=> can use for arithmatic operation
+
+ex:
+${object_attribute.salary*2}
+
+or 
+
+Put it in value :
+
+ex:
+<jsp:setProperty name="object_attribute" property="salary" value="${param.salary*2}"/>
+
+==================================================================================
+
+Very impotant :
+
+
+page not found
+
+1: web.xml
+2: pages
+3: error page
+
+
+
+
+

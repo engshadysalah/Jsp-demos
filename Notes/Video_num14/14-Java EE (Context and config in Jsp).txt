@@ -1,0 +1,44 @@
+
+program : web_app_jspnum2
+
+
+
+===================================================
+
+contex :
+
+ex:
+
+<%= getServletContext().getInitParameter("phone") %>
+=
+<%= application.getInitParameter("phone") %>
+
+implicit object : ( objects found gahza in jsp)
+
+1: out
+2: requst
+3: response
+
+4:application = context
+
+                    ======================
+               =================================
+
+config :
+
+then
+
+1: go to web.xml
+2: serveltes
+3:creat addserveltelemnt
+4:creat servelt (put page.jsp in this new servelt )
+5: jsp & url is page.jsp
+6:recived config in page.jsp
+
+ <%= getServletConfig().getInitParameter("emile") %>
+
+=
+        <%= config.getInitParameter("emile") %>
+
+
+================================================================================================================================

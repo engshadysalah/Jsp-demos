@@ -1,0 +1,32 @@
+
+
+
+MVC
+
+is apatern or model or way to design or orgainize your software component of the project (Pfiels , code) ==> simply easy
+
+
+model : login.java , *.java ==> business logic {process}  {task of developer}
+
+
+contorler: controler.java    ===> to connect between 1 & 2 ==> task of {task of experinces or senior }
+
+
+view : *.html or *.jsp    === > {task of designer}
+
+
+
+
+then we can 
+
+1: xx	code sepration {code design , code process} =======> Reusability
+
+
+2: designer do it's task => design page not develop it becouse he is designer not developer
+
+
+3: any cahang in view don't affect on the business logic
+
+
+4: desinger{view} & developer{model} can work parallel 12:56 ã ý04/ý04/ý2016
+

@@ -1,0 +1,78 @@
+
+Frist ===>>>> programing  
+
+
+programe : web_app_jspnum6
+
+
+==========================================================
+
+
+Second : information
+
+
+in page.jsp
+
+
+=> java code is write throw rules is the rules of jsp :
+
+
+1: Declarative
+
+2: scriptlet
+
+3: directive
+
+4: experation
+
+5: expretion language
+
+6: Standered Action (like html)
+
+===============================
+===================================
+
+6: Standered Action (like html) :
+
+<jsp: Action_name>
+
+
+</jsp: Action_name>
+
+
+or
+ like dispatcher 
+<jsp:forward page="vistor.jsp" /> (Without body)
+      
+====================================================================
+
+usebean : {Very important}   ======>>>> programe : web_app_jspnum6
+
+=>it's a java class that use to transfer data from web commbonant to another web combnant (put in it object from java_class)
+
+but : Must beeee :
+
+1: java_Class must has Defult Constractor (person){must be public & dosen't hase paramiter & dosen't do any thing}
+
+2: each property must has set & get in the Java_Class
+=> getName , setName (Capital N)
+ex: in => program: Web_app_jspnum5
+
+<jsp:useBean id="perso" class="java_Class.person" scope="request"/>
+            <jsp:getProperty name="perso" property="name"/>    
+
+
+
+ ================================================================
+
+to share (html code) page.jsp between more than pages.jsp
+
+then: include it in each page.jsp
+
+ex : 
+
+ <jsp:include page="Wlcom_share.jsp"/>
+
+
+===============================================================
+

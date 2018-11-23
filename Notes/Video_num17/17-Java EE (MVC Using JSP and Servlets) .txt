@@ -1,0 +1,48 @@
+
+frist ====>>> programing
+
+
+program : web_app_jspnum5
+
+
+
+
+================================================================
+
+Second ======>>>> information 
+
+
+MArke :
+
+(Resuability)
+i can execute the same code in many servelts or jsps
+
+by put this code in class
+
+and take object from it to each servelt
+
+
+
+
+
+MVC : ( model view controller )  is away in design the project
+
+
+model : code java wich nedd to execute in many servelt
+
+view : page.html that appear to user
+
+contrller (servelt) : control on servelt that will execute model in view (page.html) {dtrmined the model that will be execuited & the view that will appier to user}
+
+
+
+=>> then View is : page.html must be page.jsp
+
+
+=>> to convert page.html to page.jsp 
+
+1: file :> save as (iam in page.html)
+2: pag.jsp
+
+
+================================================================

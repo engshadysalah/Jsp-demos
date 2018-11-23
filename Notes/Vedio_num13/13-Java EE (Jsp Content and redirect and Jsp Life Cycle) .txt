@@ -1,0 +1,152 @@
+
+
+Frist ======>>>>> programing
+
+
+program : web_appjspnum1
+
+
+
+
+=============================================================
+
+Second  =====>>>>> informauion
+
+
+jsp :  (ÊØæíÑ áá ÓíÑÝáÊ)
+
+=> java servelt page
+
+
+then :
+
+jsp is :  1: page.html
+          2: incloude java code (jsp) that do process
+
+(Çí ÍÇÌå ÊÞÏÑ ÊÚãáåÇ Ýí æÇÍÏå ãäåã ÊÞÏÑ ÊÚãáåÇ Ýí ÇáÊÇäíå)
+
+          3: then : we write (code java)Servelt in html  
+
+==>> jsp good for desiner to write desine beshola
+
+BUt :
+
+in Servelt :
+
+we write html in (code java)Servelt 
+
+==========================
+====================
+
+
+=> java code is write throw rules is the rules of jsp :
+
+
+1: Declarative
+
+2: scriptlet
+
+3: experation
+
+4: directive
+
+5: expretion language
+
+6: Action
+
+
+=======================
+=============================
+
+Comment in jsp :
+
+<%--
+
+eng shady
+
+--%>
+
+
+==========================
+================================
+
+1: Declaration : To Declare Variable & METHODES =>>>    <%!   %>
+
+ex :
+
+<%! int count =0; %>
+
+                 ________________
+                 ----------------
+
+
+2: scriptlet  : to execute cod java =>>>      <%    %>
+
+(for loop , if , any process) {Just only code java}
+
+ex:
+
+<% counter++; %>
+
+                 ________________
+                 ----------------
+
+
+3: experstion : 
+
+=>to print(to put any data has result (with)into response AUTOMATIC)
+
+==>> <%=     %>  {  Without ; } 
+
+ex:
+
+<%=  counter   %>
+
+ex:  <%= Counter_class.getcounter() %>
+                 ________________
+                 ----------------
+
+
+4: page directive : tm make import to class
+
+ex:
+
+<%@page import="helpJSP.Counter_class"%>
+
+
+                 ________________
+                 ----------------
+
+
+==========================================================================================================================
+
+
+JSP Life Cycle :
+
+When page.jsp recives only first request .
+
+Container :>
+
+1:translation the (page.jsp) to javacode(class.java)
+
+2:compile javacode
+
+3:call defult consractor
+
+4:call JSPinit()
+
+then 
+
+=> Container  convert it to Servelt
+
+SECOUND REQUEST to jsp page : already it is converted to servelt ( like send request to sevelt) 
+then caling services methode  check post or get .......
+
+to see it :
+
+C:\Users\rm\Documents\NetBeansProjects\web_app_num10jsp\build\generated\src\org\apache\jsp
+
+
+==========================================================================================================================
+
+ 

@@ -1,0 +1,17 @@
+
+
+program : web_app_jspnum3
+
+
+getServeltcontext.setAtribute('ssss',obj);
+
+
+
+httpseetion se=request.getsesstion();
+            se.setatribut('sss' ,obj)
+
+
+
+request.getsession.setAtribute('ssss',obj);
+requestDispatcher re=request.getrequestDispatcher ('ppppppppp');
+re.forward(request , response);

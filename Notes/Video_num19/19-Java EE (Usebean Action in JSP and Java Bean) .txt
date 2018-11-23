@@ -1,0 +1,40 @@
+
+Frist ===>>>> programing  
+
+
+programe : web_app_jspnum7 error 
+
+
+
+
+
+
+
+==========================================================
+
+
+Second : information
+
+
+in page.jsp
+
+
+=> java code is write throw rules is the rules of jsp :
+
+
+1: Declarative
+
+2: scriptlet
+
+3: directive
+
+4: experation
+
+5: expretion language
+
+6: Standered Action (like html)
+
+===============================
+===================================
+
+
